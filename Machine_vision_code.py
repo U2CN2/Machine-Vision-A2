@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
-img = cv2.imread('/home/U2CN/Documents/School/machine-vision/Segmentation-assignment/fig2.png', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('/path/to/img', cv2.IMREAD_GRAYSCALE)
 T = 120 
 _, bin_img = cv2.threshold(img, T, 255, cv2.THRESH_BINARY_INV)
 
